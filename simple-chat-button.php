@@ -91,9 +91,9 @@ if (!class_exists('SCB_Main')) {
                 register_setting('scb-button-settings', $option, $scb_settings_args);
             }
             // Initialize options
-            add_option('scb_whatsapp_chat_text', esc_html__('Hello', 'simple-chat-button'));
+            add_option('scb_whatsapp_chat_text', esc_html__('Merhabalar', 'simple-chat-button'));
             add_option('scb_button_status', '1');
-            add_option('scb_button_text', esc_html__('Need Help?', 'simple-chat-button'));
+            add_option('scb_button_text', esc_html__('Whatsapp', 'simple-chat-button'));
             add_option('scb_button_target', '_blank');
             add_option('scb_button_position', 'right');
             add_option('scb_desktop_link_type', 'web');
